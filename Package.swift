@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "FirebaseManager",
-            targets: ["FirebaseManager", "PushNotificationManager", "PushNotificationFirebaseManager"]),
+            targets: ["FirebaseManager"]),
     ],
     dependencies: [
         .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "10.12.0")
