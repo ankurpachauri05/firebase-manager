@@ -23,6 +23,8 @@ let package = Package(
             name: "FirebaseManager",
             dependencies: [
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
+                .target(name: "PushNotificationManager"),
+                .target(name: "PushNotificationFirebaseManager")
             ]),
         .testTarget(
             name: "FirebaseManagerTests",
