@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PushNotificationManager
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import PushNotificationManager
+import Swift
+import _Concurrency
+import _StringProcessing
+public enum PushNotificationError : Swift.Error {
+  case invalidParams
+  public static func == (a: PushNotificationManager.PushNotificationError, b: PushNotificationManager.PushNotificationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol PushNotificationManagerProtocol {
+  var notificationData: (([Swift.AnyHashable : Any]) -> Swift.Void)? { get set }
+  func initialize(withParams params: [Swift.String : Any]?, completion: @escaping ((_ status: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void))
+}
+public struct PushNotificationConstants {
+  public struct Airship {
+    public static let appKey: Swift.String
+    public static let secretKey: Swift.String
+    public static let launchOptions: Swift.String
+  }
+}
+extension PushNotificationManager.PushNotificationError : Swift.Equatable {}
+extension PushNotificationManager.PushNotificationError : Swift.Hashable {}

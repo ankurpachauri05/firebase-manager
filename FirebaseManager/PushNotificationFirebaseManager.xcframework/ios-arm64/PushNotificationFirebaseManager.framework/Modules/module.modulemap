@@ -1,0 +1,11 @@
+framework module PushNotificationFirebaseManager {
+  umbrella header "PushNotificationFirebaseManager.h"
+
+  export *
+  module * { export * }
+}
+
+module PushNotificationFirebaseManager.Swift {
+  header "PushNotificationFirebaseManager-Swift.h"
+  requires objc
+}

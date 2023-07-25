@@ -1,0 +1,700 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushNotificationManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushNotificationError",
+        "printedName": "PushNotificationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidParams",
+            "printedName": "invalidParams",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PushNotificationManager.PushNotificationError.Type) -> PushNotificationManager.PushNotificationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushNotificationError",
+                    "printedName": "PushNotificationManager.PushNotificationError",
+                    "usr": "s:23PushNotificationManager0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PushNotificationManager.PushNotificationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushNotificationError",
+                        "printedName": "PushNotificationManager.PushNotificationError",
+                        "usr": "s:23PushNotificationManager0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23PushNotificationManager0aB5ErrorO13invalidParamsyA2CmF",
+            "mangledName": "$s23PushNotificationManager0aB5ErrorO13invalidParamsyA2CmF",
+            "moduleName": "PushNotificationManager"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushNotificationError",
+                "printedName": "PushNotificationManager.PushNotificationError",
+                "usr": "s:23PushNotificationManager0aB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushNotificationError",
+                "printedName": "PushNotificationManager.PushNotificationError",
+                "usr": "s:23PushNotificationManager0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23PushNotificationManager0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23PushNotificationManager0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "PushNotificationManager",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23PushNotificationManager0aB5ErrorO9hashValueSivp",
+            "mangledName": "$s23PushNotificationManager0aB5ErrorO9hashValueSivp",
+            "moduleName": "PushNotificationManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23PushNotificationManager0aB5ErrorO9hashValueSivg",
+                "mangledName": "$s23PushNotificationManager0aB5ErrorO9hashValueSivg",
+                "moduleName": "PushNotificationManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23PushNotificationManager0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23PushNotificationManager0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "PushNotificationManager",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23PushNotificationManager0aB5ErrorO",
+        "mangledName": "$s23PushNotificationManager0aB5ErrorO",
+        "moduleName": "PushNotificationManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushNotificationManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushNotificationManagerProtocol",
+        "printedName": "PushNotificationManagerProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notificationData",
+            "printedName": "notificationData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.AnyHashable : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvp",
+            "mangledName": "$s23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvp",
+            "moduleName": "PushNotificationManager",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvg",
+                "mangledName": "$s23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvg",
+                "moduleName": "PushNotificationManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : PushNotificationManager.PushNotificationManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : PushNotificationManager.PushNotificationManagerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.AnyHashable : Any]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvs",
+                "mangledName": "$s23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvs",
+                "moduleName": "PushNotificationManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : PushNotificationManager.PushNotificationManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : PushNotificationManager.PushNotificationManagerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvM",
+                "mangledName": "$s23PushNotificationManager0abC8ProtocolP16notificationDataySDys11AnyHashableVypGcSgvM",
+                "moduleName": "PushNotificationManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : PushNotificationManager.PushNotificationManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : PushNotificationManager.PushNotificationManagerProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(withParams:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23PushNotificationManager0abC8ProtocolP10initialize10withParams10completionySDySSypGSg_ySb_s5Error_pSgtctF",
+            "mangledName": "$s23PushNotificationManager0abC8ProtocolP10initialize10withParams10completionySDySSypGSg_ySb_s5Error_pSgtctF",
+            "moduleName": "PushNotificationManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushNotificationManager.PushNotificationManagerProtocol>",
+            "sugared_genericSig": "<Self where Self : PushNotificationManager.PushNotificationManagerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23PushNotificationManager0abC8ProtocolP",
+        "mangledName": "$s23PushNotificationManager0abC8ProtocolP",
+        "moduleName": "PushNotificationManager",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushNotificationManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushNotificationConstants",
+        "printedName": "PushNotificationConstants",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Airship",
+            "printedName": "Airship",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "appKey",
+                "printedName": "appKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23PushNotificationManager0aB9ConstantsV7AirshipV6appKeySSvpZ",
+                "mangledName": "$s23PushNotificationManager0aB9ConstantsV7AirshipV6appKeySSvpZ",
+                "moduleName": "PushNotificationManager",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23PushNotificationManager0aB9ConstantsV7AirshipV6appKeySSvgZ",
+                    "mangledName": "$s23PushNotificationManager0aB9ConstantsV7AirshipV6appKeySSvgZ",
+                    "moduleName": "PushNotificationManager",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "secretKey",
+                "printedName": "secretKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23PushNotificationManager0aB9ConstantsV7AirshipV9secretKeySSvpZ",
+                "mangledName": "$s23PushNotificationManager0aB9ConstantsV7AirshipV9secretKeySSvpZ",
+                "moduleName": "PushNotificationManager",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23PushNotificationManager0aB9ConstantsV7AirshipV9secretKeySSvgZ",
+                    "mangledName": "$s23PushNotificationManager0aB9ConstantsV7AirshipV9secretKeySSvgZ",
+                    "moduleName": "PushNotificationManager",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "launchOptions",
+                "printedName": "launchOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23PushNotificationManager0aB9ConstantsV7AirshipV13launchOptionsSSvpZ",
+                "mangledName": "$s23PushNotificationManager0aB9ConstantsV7AirshipV13launchOptionsSSvpZ",
+                "moduleName": "PushNotificationManager",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23PushNotificationManager0aB9ConstantsV7AirshipV13launchOptionsSSvgZ",
+                    "mangledName": "$s23PushNotificationManager0aB9ConstantsV7AirshipV13launchOptionsSSvgZ",
+                    "moduleName": "PushNotificationManager",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:23PushNotificationManager0aB9ConstantsV7AirshipV",
+            "mangledName": "$s23PushNotificationManager0aB9ConstantsV7AirshipV",
+            "moduleName": "PushNotificationManager",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23PushNotificationManager0aB9ConstantsV",
+        "mangledName": "$s23PushNotificationManager0aB9ConstantsV",
+        "moduleName": "PushNotificationManager",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ankupachauri\/Documents\/Projects\/pushnotificationtemplate\/PushNotificationManager\/PushNotificationManager\/PushNotificationConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 8,
+      "value": "\"appKey\""
+    },
+    {
+      "filePath": "\/Users\/ankupachauri\/Documents\/Projects\/pushnotificationtemplate\/PushNotificationManager\/PushNotificationManager\/PushNotificationConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 11,
+      "value": "\"secretKey\""
+    },
+    {
+      "filePath": "\/Users\/ankupachauri\/Documents\/Projects\/pushnotificationtemplate\/PushNotificationManager\/PushNotificationManager\/PushNotificationConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 15,
+      "value": "\"launchOptions\""
+    }
+  ]
+}
